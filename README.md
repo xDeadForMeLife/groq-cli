@@ -4,6 +4,9 @@
 
 **Groq CLI** — это продвинутый консольный чат-клиент для работы с моделями Groq API.
 
+**[Groq](https://groq.com)** — это сверхбыстрая платформа для запуска ИИ на базе уникальных процессоров LPU. Она обеспечивает мгновенную генерацию текста с минимальной задержкой, значительно опережая обычные видеокарты. 
+Благодаря полной совместимости с API OpenAI, интеграция в любые проекты происходит максимально просто.
+
 ### 🔑 Настройка API ключа (ВАЖНО)
 Чтобы программа работала, ей нужен доступ к API. 
 1. В папке со скриптом создайте папку `dbai`.
@@ -18,7 +21,7 @@
 
 ### 🐾 Команды
 - `/help` — показать список всех команд.
-- `/models` — выбор нейросети (Llama, Mixtral и др.).
+- `/models` — выбор нейросети (Llama, OpenAI и др.).
 - `/lang <ru|en>` — смена языка интерфейса.
 - `/clear` — очистка памяти чата.
 - `/exit` — выход.
@@ -30,6 +33,7 @@
 
 **Groq CLI** is a powerful terminal-based chat client for Groq API.
 
+**[Groq](https://groq.com)** is an ultra-fast AI inference platform powered by unique LPU processors. It delivers near-instant text generation with record-low latency, far outperforming traditional GPUs. With full OpenAI API compatibility, it allows for seamless integration into any AI-driven project.
 ### 🔑 API Key Setup (IMPORTANT)
 The application requires an API key to function.
 1. Create a folder named `dbai` in the project directory.
@@ -44,7 +48,7 @@ The application requires an API key to function.
 
 ### 🐾 Commands
 - `/help` — show all available commands.
-- `/models` — switch between LLMs (Llama, Mixtral, etc.).
+- `/models` — switch between LLMs (Llama, OpenAI, etc.).
 - `/lang <ru|en>` — switch interface language.
 - `/clear` — clear chat context.
 - `/exit` — exit application.
