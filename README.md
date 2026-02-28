@@ -8,7 +8,8 @@
 Чтобы программа работала, ей нужен доступ к API. 
 1. В папке со скриптом создайте папку `dbai`.
 2. Внутри папки `dbai` создайте текстовый файл `key.txt`.
-3. Вставьте ваш API ключ Groq в этот файл.
+3. Зайдите на https://console.groq.com/keys (если не заходит зарегистрируйтесь потом зайдите в Api Keys), потом создайте API ключ
+4. Вставьте ваш API ключ Groq в этот файл.
 
 > **Примечание:** Если вы не создадите файл вручную, программа сама спросит ключ при первом запуске и создаст папку и файл за вас.
 
@@ -18,8 +19,10 @@
 
 ### 🐾 Команды
 - `/help` — список всех команд.
-- `/models` — выбор нейросети (Llama, Mixtral и др.).
+- `/models` — принт нейросетей.
+- `/model #` — выбрать нейросеть(посмотрите /models)
 - `/clear` — очистка памяти чата.
+# Тестировано на арч линуксе
 
 ---
 
@@ -29,9 +32,10 @@
 
 ### 🔑 API Key Setup (IMPORTANT)
 The application requires an API key to function.
-1. Create a folder named `dbai` in the project directory.
-2. Inside `dbai`, create a file named `key.txt`.
-3. Paste your Groq API key into this file.
+1. Create a folder named dbai in the same directory as the script.
+2. Inside the dbai folder, create a text file named key.txt.
+3. Go to https://console.groq.com/keys (sign up if you haven't already, then navigate to API Keys) and create a new API key.
+4. Paste your Groq API key into the key.txt file.
 
 > **Note:** If you don't do this manually, the app will prompt you for the key on the first run and create the necessary files automatically.
 
@@ -41,5 +45,11 @@ The application requires an API key to function.
 
 ### 🐾 Commands
 - `/help` — show all available commands.
-- `/models` — switch between LLMs (Llama, Mixtral, etc.).
+- `/models` — show models.
+- `/model #` — set model(see /models)
+- `/clear` — clear chat memory
+# Tested on Arch Linux!!
+### Only russian, english soon
+
+   - `/models` — switch between LLMs (Llama, Mixtral, etc.).
 - `/clear` — clear chat context.
