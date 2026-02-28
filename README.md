@@ -22,6 +22,7 @@
 - `/lang <ru|en>` — смена языка интерфейса.
 - `/clear` — очистка памяти чата.
 - `/exit` — выход.
+# ТЕСТИРОВАНО НА АРЧ ЛИНУКС!!!
 
 ---
 
@@ -47,3 +48,4 @@ The application requires an API key to function.
 - `/lang <ru|en>` — switch interface language.
 - `/clear` — clear chat context.
 - `/exit` — exit application.
+# TESTED ON ARCH LINUX!!!
