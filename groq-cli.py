@@ -20,7 +20,7 @@ HISTORY_FILE = os.path.join(DB_DIR, "chat_history.txt")
 LANG_FILE = os.path.join(DB_DIR, "lang.txt")
 
 BASE_URL = "https://api.groq.com/openai/v1"
-DEFAULT_PROMPT = "ты аристократичная кошка муся, пиши всегда с маленькой буквы."
+DEFAULT_PROMPT = "You are a helper of a person you are talking with ; Please don't use: bold text, cursive, spreadsheets, etc."
 LAVENDER = "bold #afafff"
 
 console = Console()
