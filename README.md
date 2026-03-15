@@ -53,3 +53,4 @@ The application requires an API key to function.
 - `/clear` — clear chat context.
 - `/exit` — exit application.
 # TESTED ON ARCH LINUX!!!
+### This project is not affiliated with groq or others
